@@ -14,6 +14,7 @@ const common_1 = require("@nestjs/common");
 let AuthController = class AuthController {
     prueba() {
         const preuba = 'prueba';
+        console.log('🚀 ~ AuthController ~ prueba ~ preuba:', preuba);
         return preuba;
     }
 };
